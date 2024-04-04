@@ -1,5 +1,11 @@
 # deep-learning-challenge
 
+Starter_Code folder contains my completed code files from Google Colab. 
+
+Images folder contains all images used for the written analysis. 
+
+----See Analysis below----
+
 Overview:
 
 The purpose of this analysis is to use a machine learning model to analyze the Alphabet Soup's funding data in order to develop an app that can automatically select the best applicants for Alphabet Soup to fund.  
@@ -9,7 +15,7 @@ Results:
 The following variable is the Target of the model:
 - Is_Successful
 See image below:
-![alt text](target.png)
+![alt text](Starter_Code/Images/target.png)
 
 
 The following variables are the features of the model:
@@ -23,13 +29,13 @@ The following variables are the features of the model:
 - Special Considerations
 - Ask_Amt
 See image below:
-![alt text](features.png)
+![alt text](Starter_Code/Images/features.png)
 
 The following variables were removed from the input data:
 - EIN
 - NAME
 See image below:
-![alt text](removed.png)
+![alt text](Starter_Code/Images/removed.png)
 
 Compiling, Training, and Evaluating the Model
 
@@ -46,12 +52,12 @@ Why were these used?
 These parameters were selected because increasing the number of neurons can help to increase the performance of the model. In addition, adding layers (up to 2) may also help to get a better performance. I kept the relu and sigmoid activation functions because other functions such as tanh decreased the performance of the model. 
 
 See the image below for the image of the best performing parameters:
-![alt text](best_parameters.png)
+![alt text](Starter_Code/Images/best_parameters.png)
 
 Was target model performance achieved?
 
 I was not able to hit 75% for the accuracy. The highest performance achieved was .7255 or 72.55% for accuracy. 
-![alt text](model_evaluation.png)
+![alt text](Starter_Code/Images/model_evaluation.png)
 
 Steps taken to increase model performance:
 
