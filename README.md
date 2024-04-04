@@ -14,7 +14,7 @@ Results:
 
 The following variable is the Target of the model:
 - Is_Successful
-See image below:
+
 ![alt text](Starter_Code/Images/target.png)
 
 
@@ -28,13 +28,13 @@ The following variables are the features of the model:
 - Income_amt
 - Special Considerations
 - Ask_Amt
-See image below:
+
 ![alt text](Starter_Code/Images/features.png)
 
 The following variables were removed from the input data:
 - EIN
 - NAME
-See image below:
+
 ![alt text](Starter_Code/Images/removed.png)
 
 Compiling, Training, and Evaluating the Model
